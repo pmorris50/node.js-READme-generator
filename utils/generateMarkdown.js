@@ -3,7 +3,7 @@
 function renderLicenseBadge(license) {
   if (license !== 'none'){
     return `[![License: IPL 1.0](https://img.shields.io/badge/License-${license}-blue.svg)](https://opensource.org/licenses/IPL-1.0)`
-  }
+  }//showing as undefined instead of license name
   return "";
  
 
@@ -15,7 +15,7 @@ function renderLicenseLink(license) {
   if(license == 'None'){
     return ''
   }
-  else if(license != 'None'){
+  else if(license != ''){ //else if for each licence 
 
   }
 }
@@ -26,7 +26,8 @@ function renderLicenseSection(license) {
   if (license !== 'None'){
     return `## License` 
   }
-  return ''
+  else if(license == '') //else if for each license
+  
 }
 
 // TODO: Create a function to generate markdown for README
@@ -37,12 +38,18 @@ function generateMarkdown(data) {
   ## Description:  
   ${data.description}
   ## Table Of Contents 
-  ${data.tableOfContents}
-  ## [Installation](#Installation)
+  [Installation](#Installation) \n
+  [Usage](#installation) \n
+  [License](#License) \n
+  [Contribute](#Contribute) \n
+  [Tests](#Tests) \n
+  [Questions](#Questions) \n
+  ## Installation
   ${data.installation}
   ## Usage
   ${data.usage}
   ${renderLicenseSection()}
+  ${renderLicenseLink()}
   ## Contribute
   ${data.contribute}
   ## Tests 

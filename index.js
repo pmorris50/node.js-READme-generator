@@ -15,11 +15,11 @@ const questions = [
         name: 'description',
         message: 'what is your description?'
     },
-    {
-        type: 'input',
-        name: 'tableOfContents',
-        message: 'what is your table of contents?'
-    },
+    // {
+    //     // type: 'input',
+    //     // name: 'tableOfContents',
+    //     // message: 'what is your table of contents?'
+    // },
     {
         type: 'input',
         name: 'installation',
