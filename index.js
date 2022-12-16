@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license was used?',
-        choices: ['Apache License 2.0', 'GNU GPL', 'MIT', 'BSD 2', 'BSD 3', 'Boost Software License 1.0', 'Creative Commons Zero', 'Eclipse Public License', 'None']
+        choices: ['Apache License 2.0', 'GNU GPL', 'MIT', 'Boost Software License 1.0', 'Creative Commons Zero', 'None']
     },
     // {
     //     type: 'input',

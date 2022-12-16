@@ -1,8 +1,8 @@
 
-  [![License: IPL 1.0](https://img.shields.io/badge/License-undefined-blue.svg)](https://opensource.org/licenses/IPL-1.0)
-  # Patrick
+   
+  # README generator
   ## Description:  
-  no
+  This application will prompt the user to answer questions in the terminal to generate a professional README file.
   ## Table Of Contents 
   [Installation](#Installation) 
 
@@ -17,15 +17,15 @@
   [Questions](#Questions) 
 
   ## Installation
-  no
+  To install this application you must install node.js and run the javaScript through the terminal.
   ## Usage
-  no
-  ## License
-  undefined
+  The usage of this application is to quickly generate a professionally formatted README.md
+  
+  
   ## Contribute
-  no
+  N/A
   ## Tests 
-  no
+  run node index.js in the command line, answer the questions, and then preview the generated READMEGEN.
   ## Questions 
-  If you have any questions, here is my email no. Also here is a link to my GitHub no
+  If you have any questions, here is my email patrickmorris532@gmail.com. Also here is a link to my GitHub https://github.com/pmorris50
   
