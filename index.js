@@ -39,7 +39,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Which license was used?',
-        choices: ['Apache', 'Boost', 'BSD 3-Clause License', 'BSD 2 Clause License', '' ]
+        choices: ['Apache License 2.0', 'GNU GPL', 'MIT', 'BSD 2', 'BSD 3', 'Boost Software License 1.0', 'Creative Commons Zero', 'Eclipse Public License', 'None']
     },
     // {
     //     type: 'input',
@@ -58,8 +58,14 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'questions',
-        message: 'enter your GitHub profile Link and email address and a message to help people reach you'
+        name: 'GitHub',
+        message: 'enter your GitHub profile Link'
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'What is your email?'
+
     }
 ];
 
